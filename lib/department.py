@@ -1,4 +1,4 @@
-# lib/department.py
+#lib/department.py
 
 from __init__ import CURSOR, CONN
 
@@ -72,6 +72,7 @@ class Department:
     def delete(self):
         """Delete the table row corresponding to the current Department instance,
         delete the dictionary entry, and reassign id attribute"""
+
 
         sql = """
             DELETE FROM departments
